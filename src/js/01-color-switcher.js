@@ -16,6 +16,7 @@ const backgroundColorSwitcher = function () {
 };
 
 btnStart.addEventListener('click', () => {
+  
   timerId = setInterval(backgroundColorSwitcher, 1000);
   btnStart.disabled = true;
 });
